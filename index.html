@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="main">
+
+  <div class="heading">
+
+    <div class="h1">
+    <h1> Learn to code by <br>watching others</h1>
+    </div> <!---h1-->
+    <div class="pHeading">
+    <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. </p>
+    </div>
+  </div>
+  
+ 
+  <div class="opcion2">
+
+  <button class="form-la" id="cero"><span> Try it free 7 days</span> then $20/mo. thereafter </button>
+  
+  
+
+  <form class="form" id="form" action="#" >
+
+      <div id="inputuno" > <input class="form-la" type="text" id="name" placeholder="First Name">  <img src="images/icon-error.svg" class="error"> 
+      </div><p   class="errorMg">First name cannot be empty</p>
+
+      <div id="inputdos" > <input type="text" class="form-la" id="lastName" placeholder="Last Name"> <img src="images/icon-error.svg" class="error"> </div>
+      <p class="errorMg">Last name cannot be empty</p>
+
+      <div id="inputtres" > <input  class="form-la" id="email" placeholder="Email Address">  <img src="images/icon-error.svg" class="error"></div>
+      <p class="errorMg">Looks like this is not an email</p>
+
+      <div id="inputcuatro"> <input type="password" class="form-la" name="passw" id="passw" placeholder="Password"> <img src="images/icon-error.svg" class="error"></div>
+      <p class="errorMg">Password cannot be empty</p>
+
+      <input type="submit" id="verde" class="form-la" value="Claim your free trial">
+   
+ 
+  
+
+   <p class="PS"> By clicking the button, you are agreeing to our <a href="#">Terms and Services</a> </p>
+
+  </form>
+</div> <!---opcion2-->  
+</div> <!---main-->
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="">Frontend Mentor</a>. 
+      Coded by <a href="#">Anntv</a>.
+    </p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
