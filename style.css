@@ -123,6 +123,8 @@ div.heading {
     border:1px thin;
     width:62vw;
     height:1.3vh;
+    margin-left:auto;
+    margin-right:auto;
    
 }
 
