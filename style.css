@@ -46,9 +46,9 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content:center;
-    height:141vh;
+    height:100%;
     padding-bottom: 7rem;
-    
+    margin-top:20px;
 
     
 }
@@ -85,7 +85,7 @@ div.heading {
     justify-content: space-between;
     background-color: white;
     margin: 5% auto;
-    height:33vh;    
+    height:53vh;    
     padding: 1rem 2.9rem;
     border-radius: 10px;
     
